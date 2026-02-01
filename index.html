@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misool Paradise - Raja Ampat | Diving & Snorkeling Paradise</title>
+    <meta name="description" content="Nikmati pengalaman menyelam dan snorkeling terbaik di Raja Ampat. Resort mewah dengan pemandu lokal berpengalaman.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">🏝 Misool Paradise</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" data-i18n="nav_toggle_label" data-i18n-attr="aria-label">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav_about">Tentang</a></li>
+                <li><a href="#gallery" data-i18n="nav_gallery">Galeri</a></li>
+                <li><a href="#booking" data-i18n="nav_booking">Booking</a></li>
+                <li><a href="#testimonials" data-i18n="nav_testimonials">Testimoni</a></li>
+                <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Kontak</a></li>
+            </ul>
+            <select id="lang-select" class="lang-select" aria-label="Pilih Bahasa" data-i18n="lang_select_label" data-i18n-attr="aria-label">
+                <option value="id">Bahasa Indonesia</option>
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+                <option value="zh">中文</option>
+                <option value="fr">Français</option>
+                <option value="de-CH">Deutsch (CH)</option>
+            </select>
+            <a href="https://wa.me/6282336902127" class="whatsapp-btn" title="Chat WhatsApp" aria-label="Chat di WhatsApp">
+                <span>💬</span>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="sun-glow" aria-hidden="true"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">Misool Paradise — Raja Ampat</h1>
+            <p data-i18n="hero_para">Pengalaman menyelam & relaksasi di jantung keindahan alam Papua Barat Daya.</p>
+            <a class="btn" href="#contact" data-i18n="hero_cta">Pesan Sekarang</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="features beach-accent">
+            <div class="container">
+                <h2 data-i18n="features_title">Kenapa Pilih Kami</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3 data-i18n="feature1_title">Snorkeling & Diving</h3>
+                        <p data-i18n="feature1_text">Spot terbaik untuk melihat terumbu karang dan ikan warna-warni.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="feature2_title">Kamar Nyaman</h3>
+                        <p data-i18n="feature2_text">Kamar bergaya lokal dengan pemandangan laut langsung.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="feature3_title">Tur Lokal</h3>
+                        <p data-i18n="feature3_text">Pemandu berpengalaman yang mengutamakan keselamatan dan keseruan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery container beach-accent">
+            <h2 data-i18n="gallery_title"><span class="gallery-icon">🐟</span> Galeri Resort <span class="gallery-icon">🐟</span></h2>
+            <div class="foto-container">
+                <img src="images/fish1.jpg" alt="Ikan Tropis Raja Ampat 1">
+                <img src="images/fish2.jpg" alt="Ikan Tropis Raja Ampat 2">
+                <img src="images/fish3.jpg" alt="Ikan Tropis Raja Ampat 3">
+                <img src="images/fish4.jpg" alt="Ikan Tropis Raja Ampat 4">
+                <img src="images/fish5.jpg" alt="Ikan Tropis Raja Ampat 5">
+                <img src="images/fish6.jpg" alt="Ikan Tropis Raja Ampat 6">
+                <img src="images/fish7.jpg" alt="Ikan Tropis Raja Ampat 7">
+                <img src="images/fish8.jpg" alt="Ikan Tropis Raja Ampat 8">
+                <img src="images/fish9.jpg" alt="Ikan Tropis Raja Ampat 9">
+                <img src="images/gallery1.jpg" alt="Galeri Resort Raja Ampat 1">
+                <img src="images/gallery2.jpg" alt="Galeri Resort Raja Ampat 2">
+                <img src="images/gallery3.jpg" alt="Galeri Resort Raja Ampat 3">
+                <img src="images/gallery4.jpg" alt="Galeri Resort Raja Ampat 4">
+                <img src="images/gallery5.jpg" alt="Galeri Resort Raja Ampat 5">
+                <img src="images/gallery6.jpg" alt="Galeri Resort Raja Ampat 6">
+                <img src="images/gallery7.jpg" alt="Galeri Resort Raja Ampat 7">
+                <img src="images/gallery8.jpg" alt="Galeri Resort Raja Ampat 8">
+                <img src="images/gallery9.jpg" alt="Galeri Resort Raja Ampat 9">
+            </div>
+        </section>
+
+        <section id="contact" class="contact container beach-accent">
+            <h2 data-i18n="contact_title">Contact Person</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p data-i18n="contact_label">Contact Person</p>
+                    <ul>
+                        <li><strong data-i18n="label_name">Nama:</strong> <span id="cp-name"> Patrecia Kadmaer</span></li>
+                        <li><strong data-i18n="label_phone">Telepon/WA:</strong> <span id="cp-phone"> +62 823-3690-2127 </span></li>
+                        <li><strong data-i18n="label_email">Email:</strong> <span id="cp-email"> paradisemisool@gmail.com </span></li>
+                    </ul>
+                    <p>Atau gunakan form untuk menghubungi kami langsung.</p>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <label for="name" data-i18n="form_name">Nama</label>
+                    <input id="name" name="name" type="text" placeholder="Nama Anda" data-i18n-attr="placeholder" data-i18n="form_name" required>
+
+                    <label for="email" data-i18n="form_email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="email@contoh.com" data-i18n-attr="placeholder" data-i18n="form_email" required>
+
+                    <label for="message" data-i18n="form_message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tulis pesan atau permintaan Anda..." data-i18n-attr="placeholder" data-i18n="form_message" required></textarea>
+
+                    <button type="submit" class="btn" data-i18n="contact_send">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="booking" class="booking container beach-accent">
+            <h2 data-i18n="booking_title">Booking Paket Diving</h2>
+            <form class="booking-form" action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="check-in" data-i18n="checkin_label">Check-in</label>
+                        <input id="check-in" name="check-in" type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out" data-i18n="checkout_label">Check-out</label>
+                        <input id="check-out" name="check-out" type="date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="guests" data-i18n="guests_label">Jumlah Tamu</label>
+                        <input id="guests" name="guests" type="number" min="1" max="20" placeholder="2" data-i18n-attr="placeholder" data-i18n="guests_label" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="package" data-i18n="package_label">Pilih Paket</label>
+                        <select id="package" name="package" required>
+                            <option value="" data-i18n="package_option_default">-- Pilih Paket --</option>
+                            <option value="snorkeling" data-i18n="package_option1">Snorkeling (1 hari)</option>
+                            <option value="diving-basic" data-i18n="package_option2">Diving Dasar (2 hari)</option>
+                            <option value="diving-advanced" data-i18n="package_option3">Diving Lanjutan (3 hari)</option>
+                            <option value="honeymoon" data-i18n="package_option4">Paket Honeymoon (3 hari)</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-lg" data-i18n="booking_cta">Pesan Paket Sekarang</button>
+            </form>
+        </section>
+
+        <section id="destinations" class="destinations beach-accent">
+            <div class="container">
+                <h2 data-i18n="destinations_title">Destinasi Menyelam Terbaik</h2>
+                <p class="section-subtitle" data-i18n="destinations_sub">Jelajahi spot diving paling indah di Raja Ampat</p>
+                <div class="destination-grid">
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('images/fish1.jpg')"></div>
+                        <h3 data-i18n="dest1_title">Piaynemo Island</h3>
+                        <p data-i18n="dest1_text">Formasi batu karst yang ikonik dengan pemandangan laut yang menakjubkan.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('images/fish2.jpg')"></div>
+                        <h3 data-i18n="dest2_title">Blue Lagoon</h3>
+                        <p data-i18n="dest2_text">Laguna biru jernih dengan snorkeling dan diving yang spektakuler.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('images/fish3.jpg')"></div>
+                        <h3 data-i18n="dest3_title">Manta Point</h3>
+                        <p data-i18n="dest3_text">Spot terbaik untuk bertemu manta ray dan ikan-ikan besar lainnya.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('images/fish4.jpg')"></div>
+                        <h3 data-i18n="dest4_title">Kri Island</h3>
+                        <p data-i18n="dest4_text">Terumbu karang yang indah dengan kehidupan laut yang melimpah dan beragam.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('images/fish5.jpg')"></div>
+                        <h3 data-i18n="dest5_title">Arborek Village</h3>
+                        <p data-i18n="dest5_text">Desa nelayan tradisional dengan pengalaman budaya lokal yang autentik.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('kali%20biru.jpg')"></div>
+                        <h3>Kali Biru</h3>
+                        <p>Kawasan perairan yang jernih dengan keindahan air biru yang menakjubkan — favorit untuk foto dan santai.</p>
+                    </div>
+                    <div class="destination-card">
+                        <div class="destination-image" style="background-image: url('cendrawasih.jpg')"></div>
+                        <h3>Cendrawasih yang Naik di Pohon</h3>
+                        <p>Spot unik melihat burung cendrawasih di habitatnya — pengalaman alam yang tak terlupakan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials container beach-accent">
+            <h2 data-i18n="testimonials_title">Testimoni Tamu</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial">
+                    <p data-i18n="test1">"Pengalaman menyelam terbaik dalam hidup saya! Pemandu lokal sangat profesional dan ramah."</p>
+                    <strong>Budi Santoso</strong>
+                    <span>Jakarta</span>
+                </div>
+                <div class="testimonial">
+                    <p data-i18n="test2">"Resort yang indah dengan pelayanan luar biasa. Kami pasti akan kembali lagi!"</p>
+                    <strong>Siti & Adi</strong>
+                    <span>Surabaya (Honeymoon)</span>
+                </div>
+                <div class="testimonial">
+                    <p data-i18n="test3">"Terumbu karang paling indah yang pernah saya lihat. Highly recommended untuk diving enthusiast!"</p>
+                    <strong>Maria Wijaya</strong>
+                    <span>Bandung</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq container beach-accent">
+            <h2 data-i18n="faq_title">Pertanyaan yang Sering Diajukan</h2>
+            <div class="faq-items">
+                <details class="faq-item">
+                    <summary data-i18n="faq_q1">Apakah saya perlu sertifikat diving?</summary>
+                    <p data-i18n="faq_a1">Untuk snorkeling tidak perlu, tetapi untuk diving dasar minimal harus memiliki sertifikat Open Water. Kami menyediakan instruktur bersertifikat untuk pemula.</p>
+                </details>
+                <details class="faq-item">
+                    <summary data-i18n="faq_q2">Berapa lama perjalanan ke resort?</summary>
+                    <p data-i18n="faq_a2">Dari Sorong sekitar 4-6 jam dengan speedboat, tergantung cuaca. Kami membantu arrange transportasi dari bandara.</p>
+                </details>
+                <details class="faq-item">
+                    <summary data-i18n="faq_q3">Apa yang termasuk dalam paket?</summary>
+                    <p data-i18n="faq_a3">Paket termasuk akomodasi, makan (breakfast & dinner), diving/snorkeling equipment, boat tour, dan guide profesional.</p>
+                </details>
+                <details class="faq-item">
+                    <summary data-i18n="faq_q4">Apakah aman untuk anak-anak?</summary>
+                    <p data-i18n="faq_a4">Snorkeling sangat aman untuk anak-anak dengan pengawasan. Diving minimal usia 10 tahun dengan instruktur khusus.</p>
+                </details>
+                <details class="faq-item">
+                    <summary data-i18n="faq_q5">Bagaimana kebijakan pembatalan?</summary>
+                    <p data-i18n="faq_a5">Pembatalan 14 hari sebelum check-in: refund 100%. 7 hari sebelum: 50% refund. Kurang dari 7 hari: tidak bisa refund.</p>
+                </details>
+            </div>
+        </section>
+
+        <section id="map" class="map-section container beach-accent">
+            <h2 data-i18n="map_title">Lokasi Kami</h2>
+                <p data-i18n="map_sub">Raja Ampat, Sorong, Papua Barat Daya, Indonesia</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8662599999995!2d130.5!3d-0.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRaja%20Ampat!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section id="newsletter" class="newsletter beach-accent">
+            <div class="container">
+                <h2 data-i18n="newsletter_title">Dapatkan Penawaran Eksklusif</h2>
+                <p data-i18n="newsletter_sub">Subscribe untuk mendapat tips diving dan penawaran spesial langsung ke email Anda.</p>
+                <form class="newsletter-form" action="#" method="post">
+                    <input type="email" placeholder="email@anda.com" data-i18n-attr="placeholder" data-i18n="form_email" required>
+                    <button type="submit" class="btn" data-i18n="newsletter_cta">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer_text">&copy; 2026 Misool Paradise - Raja Ampat</p>
+    </footer>
+
+        <!-- Auto-adjust CSS variable --nav-height to match actual navbar height -->
+        <script>
+            (function(){
+                function updateNavHeight(){
+                    var nav = document.querySelector('.navbar');
+                    if(!nav) return;
+                    var h = nav.offsetHeight;
+                    document.documentElement.style.setProperty('--nav-height', h + 'px');
+                }
+
+                // Toggle mobile navigation
+                function initNavToggle(){
+                    var nav = document.querySelector('.navbar');
+                    var toggle = document.querySelector('.nav-toggle');
+                    if(!toggle || !nav) return;
+                    toggle.addEventListener('click', function(){
+                        var isOpen = nav.classList.toggle('open');
+                        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+                        // recalc nav height after a tick so CSS changes applied
+                        setTimeout(updateNavHeight, 60);
+                    });
+                }
+
+                window.addEventListener('load', function(){ updateNavHeight(); initNavToggle(); });
+                window.addEventListener('resize', updateNavHeight);
+
+                // Watch for dynamic changes inside navbar (e.g. menu items injected)
+                var navEl = document.querySelector('.navbar');
+                if(navEl){
+                    var mo = new MutationObserver(function(){ updateNavHeight(); });
+                    mo.observe(navEl, { childList: true, subtree: true, characterData: true });
+                }
+            })();
+                </script>
+
+                <!-- Simple i18n translations -->
+                <script>
+                    (function(){
+                        var translations = {
+                            'en': {
+                                nav_about: 'About', nav_gallery: 'Gallery', nav_booking: 'Booking', nav_testimonials: 'Testimonials', nav_faq: 'FAQ', nav_contact: 'Contact',
+                                lang_select_label: 'Select language', nav_toggle_label: 'Toggle navigation',
+                                hero_title: 'Misool Paradise — Raja Ampat', hero_para: 'Dive & relax in the heart of Papua Barat Daya\'s natural beauty.', hero_cta: 'Book Now',
+                                features_title: 'Why Choose Us', feature1_title: 'Snorkeling & Diving', feature1_text: 'Top spots to see coral reefs and colorful fish.',
+                                feature2_title: 'Comfortable Rooms', feature2_text: 'Locally styled rooms with sea views.', feature3_title: 'Local Tours', feature3_text: 'Experienced guides focused on safety and fun.',
+                                gallery_title: 'Resort Gallery', contact_title: 'Contact Person', contact_label: 'Contact Person', label_name: 'Name:', label_phone: 'Phone/WA:', label_email: 'Email:',
+                                form_name: 'Name', form_email: 'Email', form_message: 'Message', contact_send: 'Send Message',
+                                booking_title: 'Book a Diving Package', checkin_label: 'Check-in', checkout_label: 'Check-out', guests_label: 'Guests', package_label: 'Choose Package',
+                                package_option_default: '-- Choose Package --', package_option1: 'Snorkeling (1 day)', package_option2: 'Basic Diving (2 days)', package_option3: 'Advanced Diving (3 days)', package_option4: 'Honeymoon (3 days)',
+                                booking_cta: 'Book Package Now', destinations_title: 'Top Dive Destinations', destinations_sub: 'Explore Raja Ampat\'s most beautiful dive spots',
+                                dest1_title: 'Piaynemo Island', dest1_text: 'Iconic karst formations with stunning sea views.', dest2_title: 'Blue Lagoon', dest2_text: 'Clear blue lagoon for spectacular snorkeling and diving.', dest3_title: 'Manta Point', dest3_text: 'Best spot to meet manta rays and larger fish.',
+                                testimonials_title: 'Guest Testimonials', test1: '"Best diving experience of my life! The local guides were professional and friendly."', test2: '"Beautiful resort with outstanding service. We will come back!"', test3: '"The most beautiful coral reefs I\'ve ever seen. Highly recommended!"',
+                                faq_title: 'Frequently Asked Questions', faq_q1: 'Do I need a diving certificate?', faq_a1: 'Snorkeling does not require a certificate, but diving requires at least an Open Water certification. We provide certified instructors for beginners.',
+                                faq_q2: 'How long is the trip to the resort?', faq_a2: 'From Sorong it takes about 4-6 hours by speedboat depending on weather. We assist with transport from the airport.',
+                                faq_q3: 'What is included in the package?', faq_a3: 'Packages include accommodation, meals (breakfast & dinner), diving/snorkeling equipment, boat tours, and professional guides.',
+                                faq_q4: 'Is it safe for children?', faq_a4: 'Snorkeling is safe for children with supervision. Diving minimum age is 10 with special instructors.', faq_q5: 'What is the cancellation policy?', faq_a5: 'Full refund 14 days before check-in. 50% refund 7 days before. No refund less than 7 days.',
+                                map_title: 'Our Location', map_sub: 'Raja Ampat, Sorong, Papua Barat Daya, Indonesia',
+                                newsletter_title: 'Get Exclusive Offers', newsletter_sub: 'Subscribe for diving tips and special offers.', newsletter_cta: 'Subscribe',
+                                footer_text: '© 2026 Misool Paradise - Raja Ampat'
+                            },
+                            'de': {
+                                nav_about: 'Über', nav_gallery: 'Galerie', nav_booking: 'Buchen', nav_testimonials: 'Bewertungen', nav_faq: 'FAQ', nav_contact: 'Kontakt',
+                                lang_select_label: 'Sprache wählen', nav_toggle_label: 'Navigation umschalten',
+                                hero_title: 'Misool Paradise — Raja Ampat', hero_para: 'Tauchen & entspannen im Herzen der natürlichen Schönheit von Papua Barat Daya.', hero_cta: 'Jetzt buchen',
+                                features_title: 'Warum uns wählen', feature1_title: 'Schnorcheln & Tauchen', feature1_text: 'Top-Spots, um Korallenriffe und bunte Fische zu sehen.',
+                                feature2_title: 'Komfortable Zimmer', feature2_text: 'Lokal gestaltete Zimmer mit Meerblick.', feature3_title: 'Lokale Touren', feature3_text: 'Erfahrene Guides, die Sicherheit und Spaß priorisieren.',
+                                gallery_title: 'Resort Galerie', contact_title: 'Kontaktperson', contact_label: 'Kontaktperson', label_name: 'Name:', label_phone: 'Telefon/WA:', label_email: 'E-Mail:',
+                                form_name: 'Name', form_email: 'E-Mail', form_message: 'Nachricht', contact_send: 'Nachricht senden',
+                                booking_title: 'Tauchpaket buchen', checkin_label: 'Check-in', checkout_label: 'Check-out', guests_label: 'Gäste', package_label: 'Paket wählen',
+                                package_option_default: '-- Paket wählen --', package_option1: 'Schnorcheln (1 Tag)', package_option2: 'Tauchen Basis (2 Tage)', package_option3: 'Fortgeschritten (3 Tage)', package_option4: 'Honeymoon (3 Tage)',
+                                booking_cta: 'Jetzt buchen', destinations_title: 'Top Tauchziele', destinations_sub: 'Entdecken Sie die schönsten Tauchplätze Raja Ampat',
+                                dest1_title: 'Piaynemo Insel', dest1_text: 'Ikonische Karstformationen mit atemberaubender Aussicht.', dest2_title: 'Blue Lagoon', dest2_text: 'Klare Lagune für spektakuläres Schnorcheln und Tauchen.', dest3_title: 'Manta Point', dest3_text: 'Der beste Ort, um Mantarochen zu treffen.',
+                                testimonials_title: 'Gästebewertungen', test1: '"Beste Taucherfahrung meines Lebens! Die Guides waren professionell und freundlich."', test2: '"Wunderschönes Resort mit hervorragendem Service. Wir kommen wieder!"', test3: '"Die schönsten Korallenriffe, die ich je gesehen habe."',
+                                faq_title: 'Häufig gestellte Fragen', faq_q1: 'Brauche ich ein Tauchzertifikat?', faq_a1: 'Zum Schnorcheln nicht erforderlich. Für Tauchen mindestens Open Water Zertifikat. Wir bieten zertifizierte Instruktoren an.',
+                                faq_q2: 'Wie lange dauert die Fahrt zum Resort?', faq_a2: 'Von Sorong etwa 4-6 Stunden mit dem Speedboot, wetterabhängig. Wir helfen bei der Anreise vom Flughafen.',
+                                faq_q3: 'Was ist im Paket enthalten?', faq_a3: 'Unterkunft, Mahlzeiten, Tauchausrüstung, Bootstouren und professionelle Guides sind enthalten.',
+                                faq_q4: 'Ist es sicher für Kinder?', faq_a4: 'Schnorcheln ist sicher unter Aufsicht. Tauchen ab 10 Jahren mit speziellem Instructor.', faq_q5: 'Wie ist die Stornierungsrichtlinie?', faq_a5: '100% Rückerstattung 14 Tage vorher. 50% 7 Tage vorher. Keine Rückerstattung weniger als 7 Tage.',
+                                map_title: 'Unser Standort', map_sub: 'Raja Ampat, Sorong, Papua Barat Daya, Indonesien',
+                                newsletter_title: 'Exklusive Angebote', newsletter_sub: 'Abonnieren Sie für Tauchtipps und Spezialangebote.', newsletter_cta: 'Abonnieren',
+                                footer_text: '© 2026 Misool Paradise - Raja Ampat'
+                            },
+                            'zh': {
+                                nav_about: '关于', nav_gallery: '图库', nav_booking: '预订', nav_testimonials: '评价', nav_faq: '常见问题', nav_contact: '联系',
+                                lang_select_label: '选择语言', nav_toggle_label: '切换导航',
+                                hero_title: 'Misool Paradise — Raja Ampat', hero_para: '在Papua Barat Daya的大自然之美中心潜水与放松。', hero_cta: '立即预订',
+                                features_title: '为什么选择我们', feature1_title: '浮潜与潜水', feature1_text: '最佳地点可观赏珊瑚礁与五彩鱼类。',
+                                feature2_title: '舒适客房', feature2_text: '具有海景的本地风格客房。', feature3_title: '本地行程', feature3_text: '经验丰富的导游，注重安全与乐趣。',
+                                gallery_title: '度假村图库', contact_title: '联系人', contact_label: '联系人', label_name: '姓名:', label_phone: '电话/WhatsApp:', label_email: '电子邮件:',
+                                form_name: '姓名', form_email: '电子邮件', form_message: '留言', contact_send: '发送留言',
+                                booking_title: '预订潜水套餐', checkin_label: '入住', checkout_label: '退房', guests_label: '人数', package_label: '选择套餐',
+                                package_option_default: '-- 选择套餐 --', package_option1: '浮潜（1天）', package_option2: '基础潜水（2天）', package_option3: '高级潜水（3天）', package_option4: '蜜月套餐（3天）',
+                                booking_cta: '立即预订', destinations_title: '顶级潜点', destinations_sub: '探索 Raja Ampat 最美的潜点',
+                                dest1_title: 'Piaynemo 岛', dest1_text: '标志性喀斯特地貌与惊艳的海景。', dest2_title: '蓝泻湖', dest2_text: '清澈的蓝色泻湖，适合浮潜与潜水。', dest3_title: '魔鬼鱼点', dest3_text: '与魔鬼鱼及大型鱼类相遇的最佳地点。',
+                                testimonials_title: '客户评价', test1: '"我一生中最好的潜水体验！当地导游非常专业且热情。"', test2: '"度假村美丽，服务出色。我们会再来！"', test3: '"我见过最美的珊瑚礁。强烈推荐！"',
+                                faq_title: '常见问题', faq_q1: '我需要潜水证书吗？', faq_a1: '浮潜不需要。但潜水至少需要开放水域证书。我们为初学者提供认证教练。',
+                                faq_q2: '到度假村需要多长时间？', faq_a2: '从索隆到度假村大约 4-6 小时，视天气而定。我们协助安排机场接驳。',
+                                faq_q3: '套餐包含什么？', faq_a3: '包含住宿、餐食（早餐和晚餐）、潜水/浮潜装备、船游和专业向导。',
+                                faq_q4: '适合儿童吗？', faq_a4: '浮潜在监护下很安全。潜水最低年龄 10 岁并有专门教练。', faq_q5: '取消政策如何？', faq_a5: '入住前 14 天取消：全额退款。7 天前取消：退 50%。少于 7 天：不退款。',
+                                map_title: '我们的地点', map_sub: 'Raja Ampat, Sorong, Papua Barat Daya, 印尼',
+                                newsletter_title: '获取独家优惠', newsletter_sub: '订阅以获取潜水技巧和特别优惠。', newsletter_cta: '订阅',
+                                footer_text: '© 2026 Misool Paradise - Raja Ampat'
+                            },
+                            'fr': {
+                                nav_about: 'À propos', nav_gallery: 'Galerie', nav_booking: 'Réserver', nav_testimonials: 'Témoignages', nav_faq: 'FAQ', nav_contact: 'Contact',
+                                lang_select_label: 'Choisir la langue', nav_toggle_label: 'Basculer la navigation',
+                                hero_title: 'Misool Paradise — Raja Ampat', hero_para: 'Plongez et détendez-vous au cœur de la beauté naturelle de Papua Barat Daya.', hero_cta: 'Réserver',
+                                features_title: 'Pourquoi nous choisir', feature1_title: 'Snorkeling & Plongée', feature1_text: 'Meilleurs spots pour voir récifs coralliens et poissons colorés.',
+                                feature2_title: 'Chambres confortables', feature2_text: 'Chambres au style local avec vue sur la mer.', feature3_title: 'Excursions locales', feature3_text: 'Guides expérimentés privilégiant sécurité et plaisir.',
+                                gallery_title: 'Galerie du Resort', contact_title: 'Personne de contact', contact_label: 'Personne de contact', label_name: 'Nom:', label_phone: 'Téléphone/WA:', label_email: 'E-mail:',
+                                form_name: 'Nom', form_email: 'E-mail', form_message: 'Message', contact_send: 'Envoyer le message',
+                                booking_title: 'Réserver un package plongée', checkin_label: 'Check-in', checkout_label: 'Check-out', guests_label: 'Invités', package_label: 'Choisir un forfait',
+                                package_option_default: '-- Choisir un forfait --', package_option1: 'Snorkeling (1 jour)', package_option2: 'Plongée de base (2 jours)', package_option3: 'Plongée avancée (3 jours)', package_option4: 'Honeymoon (3 jours)',
+                                booking_cta: 'Réserver maintenant', destinations_title: 'Destinations de plongée', destinations_sub: 'Explorez les plus beaux spots de Raja Ampat',
+                                dest1_title: 'Île Piaynemo', dest1_text: 'Formations karstiques emblématiques avec vue sur la mer.', dest2_title: 'Blue Lagoon', dest2_text: 'Lagune bleue claire pour snorkeling et plongée.', dest3_title: 'Manta Point', dest3_text: 'Meilleur endroit pour rencontrer les raies manta.',
+                                testimonials_title: 'Avis des clients', test1: '"Meilleure expérience de plongée de ma vie ! Guides locaux professionnels et sympathiques."', test2: '"Resort magnifique avec un service exceptionnel. Nous reviendrons !"', test3: '"Les plus beaux récifs coralliens que j\'ai vus. Fortement recommandé !"',
+                                faq_title: 'Questions fréquentes', faq_q1: 'Ai-je besoin d\'un certificat de plongée ?', faq_a1: 'Le snorkeling ne nécessite pas de certificat. Pour la plongée, un certificat Open Water est requis. Nous proposons des instructeurs certifiés.',
+                                faq_q2: 'Combien de temps dure le trajet ?', faq_a2: 'Depuis Sorong environ 4 à 6 heures en speedboat selon la météo. Nous aidons pour le transport depuis l\'aéroport.',
+                                faq_q3: 'Qu\'est-ce qui est inclus ?', faq_a3: 'Hébergement, repas, équipement de plongée/snorkeling, excursions en bateau et guides professionnels.',
+                                faq_q4: 'Est-ce sûr pour les enfants ?', faq_a4: 'Le snorkeling est sûr sous surveillance. Plongée à partir de 10 ans avec instructeur spécial.', faq_q5: 'Quelle est la politique d\'annulation ?', faq_a5: 'Annulation 14 jours avant : remboursement complet. 7 jours avant : 50%. Moins de 7 jours : pas de remboursement.',
+                                map_title: 'Notre emplacement', map_sub: 'Raja Ampat, Sorong, Papua Barat Daya, Indonésie',
+                                newsletter_title: 'Recevez des offres exclusives', newsletter_sub: 'Inscrivez-vous pour des conseils de plongée et des offres spéciales.', newsletter_cta: 'S\'abonner',
+                                footer_text: '© 2026 Misool Paradise - Raja Ampat'
+                            },
+                            'de-CH': null // use same as 'de'
+                        };
+
+                        // fallback for de-CH
+                        translations['de-CH'] = translations['de'];
+
+                        function applyTranslations(lang){
+                            if(!translations[lang]) lang = 'en';
+                            var map = translations[lang];
+                            document.querySelectorAll('[data-i18n]').forEach(function(el){
+                                // Skip select elements - they have options, don't replace content
+                                if(el.tagName === 'SELECT') return;
+                                var key = el.getAttribute('data-i18n');
+                                var val = map[key] || '';
+                                if(val) el.textContent = val;
+                            });
+                            // placeholders and other attributes
+                            document.querySelectorAll('[data-i18n-attr]').forEach(function(el){
+                                var key = el.getAttribute('data-i18n');
+                                var attr = el.getAttribute('data-i18n-attr');
+                                var val = translations[lang] && translations[lang][key] ? translations[lang][key] : '';
+                                if(val) el.setAttribute(attr, val);
+                                else {
+                                    var fallback = el.getAttribute('placeholder');
+                                    if(fallback) el.setAttribute(attr, fallback);
+                                }
+                            });
+                            // options
+                            document.querySelectorAll('option[data-i18n]').forEach(function(opt){
+                                var key = opt.getAttribute('data-i18n');
+                                var val = translations[lang] && translations[lang][key];
+                                if(val) opt.textContent = val;
+                            });
+                        }
+
+                        // Report missing translation keys for a language (helpful during development)
+                        function reportMissingKeys(lang){
+                            if(!translations[lang]) return;
+                            var missing = [];
+                            document.querySelectorAll('[data-i18n]').forEach(function(el){
+                                var key = el.getAttribute('data-i18n');
+                                if(!translations[lang][key]) missing.push(key);
+                            });
+                            if(missing.length){
+                                console.info('Missing translations for', lang + ':', missing);
+                            } else {
+                                console.info('All translations present for', lang);
+                            }
+                        }
+
+                        var langSelect = document.getElementById('lang-select');
+                        if(langSelect){
+                            var saved = localStorage.getItem('site-lang');
+                            // If user previously selected a language, apply it. Otherwise keep original page content (Indonesian)
+                            if(saved && saved !== 'id' && translations[saved]){
+                                langSelect.value = saved;
+                                applyTranslations(saved);
+                                reportMissingKeys(saved);
+                            } else {
+                                // Default to Indonesian (id) since page content is in Indonesian
+                                langSelect.value = 'id';
+                            }
+
+                            langSelect.addEventListener('change', function(){
+                                var v = this.value;
+                                if(v === 'id'){
+                                    // Indonesian is default, remove localStorage entry to show original content
+                                    localStorage.removeItem('site-lang');
+                                    // Small delay to ensure localStorage is cleared before reload
+                                    setTimeout(function(){ location.reload(); }, 100);
+                                } else {
+                                    localStorage.setItem('site-lang', v);
+                                    applyTranslations(v);
+                                    reportMissingKeys(v);
+                                }
+                            });
+                        }
+
+                    })();
+                </script>
+
+                <!-- Scroll Animation Script -->
+                <script>
+                    (function(){
+                        // Intersection Observer for scroll animations
+                        const observerOptions = {
+                            threshold: 0.1,
+                            rootMargin: '0px 0px -100px 0px'
+                        };
+
+                        const observer = new IntersectionObserver(function(entries){
+                            entries.forEach(function(entry){
+                                if(entry.isIntersecting){
+                                    entry.target.style.opacity = '1';
+                                    entry.target.style.transform = 'translateY(0)';
+                                }
+                            });
+                        }, observerOptions);
+
+                        // Apply animations to elements
+                        document.querySelectorAll('section h2, .card, .destination-card, .testimonial, .faq-item').forEach(function(el){
+                            el.style.opacity = '0';
+                            el.style.transform = 'translateY(20px)';
+                            el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+                            observer.observe(el);
+                        });
+
+                        // Stagger animation for cards
+                        document.querySelectorAll('.cards').forEach(function(container){
+                            const cards = container.querySelectorAll('.card');
+                            cards.forEach(function(card, index){
+                                card.style.transitionDelay = (index * 0.1) + 's';
+                            });
+                        });
+
+                        // Stagger for destination cards
+                        document.querySelectorAll('.destination-grid').forEach(function(container){
+                            const cards = container.querySelectorAll('.destination-card');
+                            cards.forEach(function(card, index){
+                                card.style.transitionDelay = (index * 0.15) + 's';
+                            });
+                        });
+
+                        // Stagger for testimonials
+                        document.querySelectorAll('.testimonial-cards').forEach(function(container){
+                            const cards = container.querySelectorAll('.testimonial');
+                            cards.forEach(function(card, index){
+                                card.style.transitionDelay = (index * 0.15) + 's';
+                            });
+                        });
+                    })();
+                </script>
+            </body>
+        </html>
+</body>
+</html>
